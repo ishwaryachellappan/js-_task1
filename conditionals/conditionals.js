@@ -1,3 +1,4 @@
+//readline() is the method used to get the input
 
 const readline = require('readline').createInterface({
   input: process.stdin,
@@ -5,7 +6,8 @@ const readline = require('readline').createInterface({
 });
 
 readline.question('Which way you want to login into cyphersource ?', name => {
-  
+
+//if conditionals are used to check which type you are login in  
 
    if(name == 'google_account') 
    {

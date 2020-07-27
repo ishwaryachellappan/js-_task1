@@ -1,3 +1,5 @@
+//declaring global variable.
+
 let globalLet = "This is a global variable"; 
    
 function fun() { 
