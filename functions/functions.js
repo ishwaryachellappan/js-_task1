@@ -1,18 +1,24 @@
+ 
 
-//declaring a variable day
-var day = {
-  fullName: function() {
-    return this.first + " " + this.last;
-  }
-}
-var day1 = {
-  first:"Its a",
-  last: "HotDay"
-}
-var day2 = {
-  first:"Its a",
-  last: "Cold Day"
-}
+const readline = require('readline').createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
 
-//calling function
-day.fullName.call(day1);
+readline.question('what is the temperature today ?', temp => {
+  
+
+   if(temp >= 23.5) 
+   {
+   console.log('Its a hot day - ${name}!');
+   }
+   
+   else
+   {
+   console.log('its a cold day- ${name}!');
+   }
+
+  readline.close();
+});
+
+
