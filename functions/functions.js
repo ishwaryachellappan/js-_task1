@@ -1,24 +1,14 @@
+var Day = temperature(24); // Declared a variable "Day" and the function "temperature" is called
  
-
-const readline = require('readline').createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
-
-readline.question('what is the temperature today ?', temp => {
-  
-
-   if(temp >= 23.5) 
-   {
-   console.log('Its a hot day - ${name}!');
-   }
-   
-   else
-   {
-   console.log('its a cold day- ${name}!');
-   }
-
-  readline.close();
-});
-
-
+function temperature(temp)
+{
+if(temp>23.5)
+{
+console.log("It is a hot day"); 
+// As the temperature is 24 degree Celsius, it is a hot day
+}
+else
+{
+console.log("It is a cold day");
+}
+}
