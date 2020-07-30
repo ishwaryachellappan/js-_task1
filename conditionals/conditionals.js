@@ -11,15 +11,15 @@ readline.question('Which way you want to login into cyphersource ?', name => {
 
    if(name == 'google_account') 
    {
-   console.log('login succesful - ${name}!');
+   console.log('login succesful!');
    }
    else if(name == 'mail')
    {
-   console.log('login failed - ${name}!');
+   console.log('login failed !');
    }
    else
    {
-   console.log('login failed - ${name}!');
+   console.log('login failed !');
    }
 
   readline.close();
