@@ -21,7 +21,7 @@ readline.question('Which way you want to login into cyphersource ?', name => {
    {
    console.log('login failed !');
    }
-
+//readline closes here
   readline.close();
 });
 

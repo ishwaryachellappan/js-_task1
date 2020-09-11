@@ -9,6 +9,6 @@ var y = 230;
 z = [(x-y)/x]*100;
 
 //math.floor is the function to find the round off.
-
+//percentage(%)symbol is used as the condition given
 console.log(Math.floor(z)+ '%');
 
